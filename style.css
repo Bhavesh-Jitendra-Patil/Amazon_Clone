@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+    /*This is logo section*/
+
+.navlogo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+.border{
+    border: 0.1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+    /*This For Deliver section*/
+
+.deliver-to{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+    padding: 8px 0px 0px;
+    
+}
+.country{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.fa-solid{
+    color: white;
+}
+.address-box{
+    display: flex;
+    align-items: center;
+
+}
+
+    /*this for search section*/
+
+.nav-search{
+    display: flex;
+    height: 40px;
+    padding: 10px 4px 10px 3px;
+    justify-content: center;
+}
+.nav-search-selactor{
+    background-color: #E6E6E6; 
+    width: 45px;
+    height: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+}
+.nav-search-bar{
+    width: 604.6px;
+    font-size: 1rem;
+}
+.nav-search-icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color:rgb(244, 171, 36);
+    border: none;
+    font-size: 1.2rem;
+}
+.fa-magnifying-glass{
+    color: black;
+}       
+
+        /*language section*/
+
+.language{
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15.6px 0px 15.6px 0px;
+}
+
+        /*Sign in section*/
+
+.nav-account{
+    display: flex;
+    width: 104.8px;
+    height: 38px;
+    flex-wrap: wrap;
+    color: #ffffff;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6.2px 0px 6.2px 0px;
+}
+.signin-first-row{
+    font-size: 12px;
+}
+.signin-second-row{
+    font-size: 14px;
+}
+
+
+
+        /*return or orders sections*/
+
+.nav-ordered-list{
+    display: flex;
+    width: 78px;
+    height: 30px;
+    flex-wrap: wrap;
+    color: #ffffff;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+.order-first-row{
+    font-size: 12px;
+}
+.order-second-row{
+    font-size: 14px;
+}
+
+        /*cart section*/
+
+.nav-cart{
+    display: flex;
+    color: #ffffff;
+    height: 50px;
+    width: 84.8px;
+    justify-content: center;
+    align-items: center;
+}
+.fa-cart-shopping{
+    font-size: 30px;
+}
+.cart-name{
+    font-size: 14px;
+    align-self: baseline;
+}
+
+    /*pannel section*/
+
+.pannel{
+    height: 39px;
+    background-color: #0e2525;
+    display: flex;
+    color: #ffffff;
+    justify-items: center;
+    align-items: center;
+}
+.catagiorys{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 9px 0px 9px 10px;
+    font-size: 15px;
+}
+.pannel-first{
+    display: flex;
+    margin-left: 20PX;
+    padding: 8px 0px 8px 0px;
+    
+}
+.pannel-second{
+    display: flex;
+    margin-left: 20PX;
+    padding: 8px 0px 8px 0px;
+    
+}
+.pannel-third{
+    display: flex;
+    margin-left: 20PX;
+    padding: 8px 0px 8px 0px;
+    
+}
+.pannel-forth{
+    display: flex;
+    margin-left: 20PX;
+    padding: 8px 0px 8px 0px;
+    
+}
+.pannel-fifth{
+    display: flex;
+    margin-left: 20PX;
+    padding: 8px 0px 8px 0px;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+    /*Hero section*/  
+
+.hero-section{
+
+    height: 350px;
+    
+    background-image: url(hero_image.jpg) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.Amazon-link{
+    color: #007185;
+}
+.hero-suggestion{
+    background-color: #F5F6F6;
+    color: black;
+    font-size: 1rem;
+    height: 40px;
+    width: 1460px;;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+   @media screen {width: max-content;
+    
+   }
+
+}
+
+    /*shopping content box */
+
+.shopping-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(196, 132, 255);
+}
+.box{
+
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px 0px 15px;
+    margin-bottom: 30px;
+}
+.box1{
+    text-align: center;
+    }
+.box1-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box2{
+    text-align: center;
+    }
+.box2-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box3{
+    text-align: center;
+    }
+.box3-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box4{
+    text-align: center;
+    }
+.box4-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box5{
+    text-align: center;
+    }
+.box5-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box6{
+    text-align: center;
+    }
+.box6-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box7{
+    text-align: center;
+    }
+.box7-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box8{
+    text-align: center;
+    }
+.box8-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box1{
+    text-align: center;
+    }
+.box1-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box2{
+    text-align: center;
+    }
+.box2-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box3{
+    text-align: center;
+    }
+.box3-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box4{
+    text-align: center;
+    }
+.box4-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box5{
+    text-align: center;
+    }
+.box5-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box6{
+    text-align: center;
+    }
+.box6-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box7{
+    text-align: center;
+    }
+.box7-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+.box8{
+    text-align: center;
+    }
+.box8-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89%;
+    width: 90%;
+    margin-left: 17px;
+}
+
+            /*this is making of footer*/
+
+.footer-back-to-panal1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#007185;
+    color: white;
+    height: 49px;
+    font-size: 0.85rem;
+}
+.footer-panal2{
+    height:350px;
+    background-color: #0e2525;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footer-panal3{
+    height: 60px;
+    background-color: #0e2525;
+    display: flex;
+    justify-content: center;
+}
+.footer-panal4{
+    background-color: #0e2525;
+    color: white;
+    height: 60px;
+    font-size: 10px;
+
+}
+.main-page{
+    font-size: px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+@media(max-width:768px){
+    .box{width: 50%;
+        padding: 10px;
+        margin: 5px;
+
+    }
+}
